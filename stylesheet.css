@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  background-image: url(img/intronathalie.png);
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #ffd0d8;
+  border: 1px solid #424242;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 1rem;
+  transition: all 0.4s linear;
+  padding-top: 1rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: xx-large;
+  color:#212121;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a {
+  color: #daa520;
+}
+
+#div2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#div1 {
+  padding-top: 27rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #fdef69;
+  color: #ffd0d8;
+}
